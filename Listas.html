@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+
+   <ol type="I"> <!-- ordered list, lista ordenada, para inserir itens da lista utiliza-se a TAG li list item--> <!-- também podemos personalizar o tipo da numeração da lista, utilizando parametro type-->
+    <li>Acordar</li> <!-- Importante ressaltar que para cada item deve abrir e fechar a TAG li-->
+    <li>Escovar os dentes</li> <!-- a partir da versao 5 HTML, somente a abertura da TAG li funciona, é opcional, se quiser deletar </li> <-->
+    <li>Tomar café &#x2615; </li>
+    <li> Levar as cachorras para passear &#x1F415;</li>
+    <li>Voltar para casa</li>
+    <li>Assistir One Piece com meu amor &#x1F493; </li>
+   </ol> 
+
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc" > <!-- listas não ordenadas utiliza-se a TAG Ul - unorderned list--> <!-- para personalizar sua lista, utiliza-se o type=" ", com as opções disc, circle e square-->
+        <li>Comprar chocolate
+        <li>Comprar açucar mascavo
+    </ul> 
+
+    <h2>Meus animes favoritos</h2>
+    <ol type="I">
+        <li>Antigos</li>
+        <ol type="a">
+            <li>One Piece
+            <li>Bleach
+            <li>HunterXHunter
+            <li>Naruto
+            
+        </ol>
+        <li>Novos</li>
+        <ol type="a"> <!-- é possivel escolher o "ponto de partida" da lista, ao inves de começar no 1, pode começar no 2 em diante, com o start "" após o type -->
+            <li>Haikyuu
+            <li>Kimetsu no Yaiba
+            <li>Dr. Stone
+            <li>Nanatsu no Taizai
+        </ol>
+    </ol>
+
+    <h2>Meus Jogos favoritos</h2>
+    <ul type="square"> <!-- para alterar mais de uma tag junto segura alt e clica onde vc vai alterar para deixar um cursor-->
+        <li>Grand Chase</li>
+        <li>Donkey Kong</li>
+        <ul type="circle">
+            <li>Donkey Kong Country</li>
+            <li>Dokey Konge Doube Trouble</li>
+            <li> Donkey Kong Diddy´s Kong </li>
+        </ul>
+            <li>Mario Bross</li>
+            <li>Mario Cart</li>
+        </ul>
+   
+    <h2>Lista de Definição - Definiton List</h2>
+    <dl> <!-- TAG dl definition list-->
+        <dt>HTML</dt> <!-- dt definition term-->
+        <dd>Linguagem de marcação, onde cria o conteudo de um site.</dd> <!--dd definition description-->
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação, onde cria o design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação, onde cria a interatividade de um site.</dd>
+
+    </dl>
+
+</body>
+</html>
